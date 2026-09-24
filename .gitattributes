@@ -1,0 +1,5 @@
+# Keep LF line endings on every platform: the audited modules are verified by SHA-256
+# (src/AUDITED_SHA256.txt), and a CRLF checkout would change their bytes.
+* text=auto eol=lf
+*.png binary
+*.pdf binary

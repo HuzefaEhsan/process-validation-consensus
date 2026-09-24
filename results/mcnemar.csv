@@ -1,0 +1,24 @@
+scenario,N,seed,comparison,unit,n,process_positive,baseline_positive,delta_pp,b_process_only,c_baseline_only,discordant,p_value,p_fmt,p_sci
+H1,30,20260629,accuracy_correct,task,100,100,100,0.0000,0,0,0,1,1.000,1.0e+00
+H1,30,20260629,fpr_flagged_honest,log,3000,0,0,0.0000,0,0,0,1,1.000,1.0e+00
+H1,30,20260629,fpr_any_honest_flagged,task,100,0,0,0.0000,0,0,0,1,1.000,1.0e+00
+H1b,30,20260629,accuracy_correct,task,100,100,100,0.0000,0,0,0,1,1.000,1.0e+00
+H1b,30,20260629,flag_all_logs,log,3000,0,300,-10.0000,0,300,300,9.81819e-91,< 0.001,9.8e-91
+H1b,30,20260629,flag_any_log,task,100,0,100,-100.0000,0,100,100,1.57772e-30,< 0.001,1.6e-30
+H1b,30,20260629,flag_honest_error,log,300,0,300,-100.0000,0,300,300,9.81819e-91,< 0.001,9.8e-91
+H3,30,20260629,accuracy_correct,task,100,100,100,0.0000,0,0,0,1,1.000,1.0e+00
+H3,30,20260629,fpr_flagged_honest,log,2700,0,0,0.0000,0,0,0,1,1.000,1.0e+00
+H3,30,20260629,fpr_any_honest_flagged,task,100,0,0,0.0000,0,0,0,1,1.000,1.0e+00
+H3,30,20260629,detection_flagged_attacker,log,300,300,150,50.0000,150,0,150,1.4013e-45,< 0.001,1.4e-45
+H3,30,20260629,detection_all_attackers_flagged,task,100,100,0,100.0000,100,0,100,1.57772e-30,< 0.001,1.6e-30
+H3,30,20260629,detection:bare_assertion_wrong,log,75,75,75,0.0000,0,0,0,1,1.000,1.0e+00
+H3,30,20260629,detection:bare_assertion_wrong,task,75,75,75,0.0000,0,0,0,1,1.000,1.0e+00
+H3,30,20260629,detection:bare_assertion_correct,log,75,75,0,100.0000,75,0,75,5.29396e-23,< 0.001,5.3e-23
+H3,30,20260629,detection:bare_assertion_correct,task,75,75,0,100.0000,75,0,75,5.29396e-23,< 0.001,5.3e-23
+H3,30,20260629,detection:forged_op,log,75,75,0,100.0000,75,0,75,5.29396e-23,< 0.001,5.3e-23
+H3,30,20260629,detection:forged_op,task,75,75,0,100.0000,75,0,75,5.29396e-23,< 0.001,5.3e-23
+H3,30,20260629,detection:orphan_op,log,75,75,75,0.0000,0,0,0,1,1.000,1.0e+00
+H3,30,20260629,detection:orphan_op,task,75,75,75,0.0000,0,0,0,1,1.000,1.0e+00
+H1U,30,20260629,accuracy_correct,task,100,100,100,0.0000,0,0,0,1,1.000,1.0e+00
+H1U,30,20260629,fpr_flagged_honest,log,3000,144,0,4.8000,144,0,144,8.96831e-44,< 0.001,9.0e-44
+H1U,30,20260629,fpr_any_honest_flagged,task,100,6,0,6.0000,6,0,6,0.03125,0.031,3.1e-02

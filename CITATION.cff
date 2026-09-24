@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below. Please also cite the accompanying paper (preferred citation)."
+type: software
+title: "process-validation-consensus: agent-layer process-validation consensus for decentralized LLM multi-agent systems"
+abstract: >-
+  Research prototype in which peers validate each agent's committed reasoning log, rather than its
+  final output, with a mechanical and recomputable predicate. A simulated hash-chained ledger serves
+  only as a tamper-evident record. Includes the offline GSM8K experiments (H1, H1b, H3, H1-U),
+  their results and the independent audit scripts.
+authors:
+  - family-names: Ahsan
+    given-names: Huzaifa
+    affiliation: "Telkom University"
+    email: huzaifaahsan@student.telkomuniversity.ac.id
+  - family-names: Wardana
+    given-names: Aulia Arif
+    affiliation: "Telkom University"
+  - family-names: Sukarno
+    given-names: Parman
+    affiliation: "Telkom University"
+version: "1.0.0"
+date-released: "2026-09-24"
+license: MIT
+repository-code: "https://github.com/HuzefaEhsan/process-validation-consensus"
+keywords:
+  - multi-agent systems
+  - large language models
+  - process validation
+  - consensus
+  - free-riding
+  - tamper-evident ledger
+preferred-citation:
+  type: conference-paper
+  title: "Process over Output: Detecting Correct-Answer Free-Riders in Leaderless LLM Multi-Agent Systems"
+  authors:
+    - family-names: Ahsan
+      given-names: Huzaifa
+      affiliation: "Telkom University"
+      email: huzaifaahsan@student.telkomuniversity.ac.id
+    - family-names: Wardana
+      given-names: Aulia Arif
+      affiliation: "Telkom University"
+    - family-names: Sukarno
+      given-names: Parman
+      affiliation: "Telkom University"
+  conference:
+    name: "19th Asian Conference on Intelligent Information and Database Systems (ACIIDS 2027)"
+    location: "Bali, Indonesia"
+  notes: "To appear, pending review."

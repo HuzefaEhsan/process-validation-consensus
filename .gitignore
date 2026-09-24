@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Dataset: downloaded by scripts/download_gsm8k.py, never committed
+data/*
+!data/.gitkeep
+
+# Intermediate pipeline outputs, regenerated on every run (the audit-corrected pair
+# results/results.json + results/RESULTS_SUMMARY.md is the committed authority)
+results/generated_*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/

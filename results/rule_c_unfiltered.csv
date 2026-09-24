@@ -1,0 +1,16 @@
+scenario,N,seed,arm,metric,group,x,n,p,p_fmt,wilson95_lo,wilson95_hi,cp95_lo,cp95_hi,wilson95_fmt,cp95_fmt,unit
+rule_c_unfiltered,,,predicate,fpr_distinct_faithful_logs,all_tiers,208,5995,0.034696,3.5%,0.030353,0.039634,0.030207,0.039644,"[3.0, 4.0]","[3.0, 4.0]",log (problem x tier)
+rule_c_unfiltered,,,predicate,fpr_distinct_faithful_logs,tier:minimal,0,1199,0.000000,0.0%,0.000000,0.003194,0.000000,0.003072,"[0.0, 0.3]","[0.0, 0.3]",log (problem x tier)
+rule_c_unfiltered,,,predicate,fpr_distinct_faithful_logs,tier:terse,52,1199,0.043369,4.3%,0.033225,0.056431,0.032557,0.056487,"[3.3, 5.6]","[3.3, 5.6]",log (problem x tier)
+rule_c_unfiltered,,,predicate,fpr_distinct_faithful_logs,tier:standard,52,1199,0.043369,4.3%,0.033225,0.056431,0.032557,0.056487,"[3.3, 5.6]","[3.3, 5.6]",log (problem x tier)
+rule_c_unfiltered,,,predicate,fpr_distinct_faithful_logs,tier:verbose,52,1199,0.043369,4.3%,0.033225,0.056431,0.032557,0.056487,"[3.3, 5.6]","[3.3, 5.6]",log (problem x tier)
+rule_c_unfiltered,,,predicate,fpr_distinct_faithful_logs,tier:evidence,52,1199,0.043369,4.3%,0.033225,0.056431,0.032557,0.056487,"[3.3, 5.6]","[3.3, 5.6]",log (problem x tier)
+rule_c_unfiltered,,,predicate,problems_with_any_tier_rejected,problems,52,1199,0.043369,4.3%,0.033225,0.056431,0.032557,0.056487,"[3.3, 5.6]","[3.3, 5.6]",problem
+H1U,30,20260629,process,fpr,all_honest,144,3000,0.048000,4.8%,0.040912,0.056244,0.040628,0.056268,"[4.1, 5.6]","[4.1, 5.6]",log (end-to-end protocol)
+H1U,30,20260629,process,consensus_accuracy,all_tasks,100,100,1.000000,100.0%,0.963007,1.000000,0.963783,1.000000,"[96.3, 100.0]","[96.4, 100.0]",task
+H1U,30,20260629,process,fpr,logs_on_rule_c_problems,144,180,0.800000,80.0%,0.735571,0.851891,0.734029,0.855816,"[73.6, 85.2]","[73.4, 85.6]",log (end-to-end protocol)
+H1U,30,20260629,process,task_level_any_honest_flagged,tasks,6,100,0.060000,6.0%,0.027786,0.124768,0.022335,0.126030,"[2.8, 12.5]","[2.2, 12.6]",task
+H1U,30,20260629,baseline,fpr,all_honest,0,3000,0.000000,0.0%,0.000000,0.001279,0.000000,0.001229,"[0.0, 0.1]","[0.0, 0.1]",log (end-to-end protocol)
+H1U,30,20260629,baseline,consensus_accuracy,all_tasks,100,100,1.000000,100.0%,0.963007,1.000000,0.963783,1.000000,"[96.3, 100.0]","[96.4, 100.0]",task
+H1U,30,20260629,baseline,fpr,logs_on_rule_c_problems,0,180,0.000000,0.0%,0.000000,0.020895,0.000000,0.020285,"[0.0, 2.1]","[0.0, 2.0]",log (end-to-end protocol)
+H1U,30,20260629,baseline,task_level_any_honest_flagged,tasks,0,100,0.000000,0.0%,0.000000,0.036993,0.000000,0.036217,"[0.0, 3.7]","[0.0, 3.6]",task

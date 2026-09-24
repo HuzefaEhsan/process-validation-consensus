@@ -1,0 +1,53 @@
+gsm8k_index,annotations,orphan_steps,identity_annotation,tiers_rejected,tiers_accepted,process_coherence,tool_utilization,causal_sufficiency,C1,C2,C3,C4,same_pattern_all_rejected_tiers,failed_gates
+15,3,1,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+37,4,0 1 2,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+52,3,0 1,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+62,2,0,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+84,3,0,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+92,2,0,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+119,4,0,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+186,4,0 1,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+189,3,0 1,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+209,4,0 1,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+214,2,0,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+265,3,0 1,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+311,4,1,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+313,3,0,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+358,3,0,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+367,3,0,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+407,4,0,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+494,3,0,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+500,5,0,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+505,4,1,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+580,3,0 1,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+585,5,1 2,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+594,3,0,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+622,4,0 1 2,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+637,3,0 1,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+652,6,0 1,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+672,4,0 1,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+675,4,0 1 2,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+687,5,1,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+726,2,0,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+737,3,0 1,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+753,4,0,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+754,6,3,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+772,6,0 1 2 3 4,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+802,2,0,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+809,2,0,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+815,5,0 2 3,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+831,5,0,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+884,2,0,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+935,4,0,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+969,5,0,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+1014,5,0 1 2 3,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+1022,3,0,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+1042,5,0 1 2 3,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+1045,2,0,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+1075,6,1,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+1095,3,0,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+1100,3,0,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+1137,4,0 1,False,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+1161,6,0 1,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+1190,2,0,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization
+1200,2,0,True,terse standard verbose evidence,minimal,4,4,0,0,0,0,0,True,process_coherence + tool_utilization

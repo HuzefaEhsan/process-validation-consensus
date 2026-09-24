@@ -1,0 +1,13 @@
+# Summary verification (RESULTS_SUMMARY.md vs results.json)
+
+numeric tokens checked: 1894
+  derivable from results.json: 1893
+  whitelisted (not from results.json, reason given): 1
+  UNMATCHED: 0
+table rows with x/n re-derived (%, Wilson, CP): 60; failures: 0
+key rows rebuilt from JSON paths: 88; missing: 0
+RESULT: PASS
+
+## Whitelisted tokens
+- +165: historical '+165 ops' figure from the proposal (fact sheet), explained by the cost formula
+

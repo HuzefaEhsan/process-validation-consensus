@@ -1,0 +1,174 @@
+{
+ "conversion_faithfulness_all_selected": {
+  "final_equals_gsm8k_answer": 100,
+  "ops_match_annotations": 100,
+  "problems": 100
+ },
+ "conversion_sample_indices": [
+  1,
+  10,
+  16,
+  27,
+  50,
+  54,
+  61,
+  70,
+  95,
+  99
+ ],
+ "evasion_probe": {
+  "answer_appears_in_question": 6,
+  "identity_op_accepted_by_predicate": 100,
+  "identity_op_accepted_independent": 100,
+  "tasks": 100,
+  "times_one_op_accepted_by_predicate": 100
+ },
+ "h1u_vs_primary": {
+  "h1u_last_index": 110,
+  "h1u_only": [
+   15,
+   37,
+   52,
+   62,
+   84,
+   92
+  ],
+  "primary_last_index": 117,
+  "primary_only": [
+   111,
+   112,
+   113,
+   115,
+   116,
+   117
+  ],
+  "shared": 94
+ },
+ "h3_ledger_count": {
+  "all_tx_per_log": 10.0107,
+  "genesis_reputation_records": 30,
+  "logs": 3000,
+  "protocol_tx": 27000,
+  "protocol_tx_per_log": 9.0,
+  "total_tx": 30032,
+  "tx_by_type": {
+   "log_commit": 3000,
+   "peer_set": 3000,
+   "phase": 2,
+   "reputation_set": 3030,
+   "verdict_commit": 9000,
+   "verdict_reveal": 9000,
+   "verdict_seal": 3000
+  }
+ },
+ "h3_validator_audit": {
+  "attacker_logs_with_a_free_rider_validator": 64,
+  "disagreeing_with_independent_predicate": 0,
+  "free_rider_verdicts": 890,
+  "free_rider_verdicts_disagreeing": 0,
+  "logs_with_a_free_rider_validator": 827,
+  "revealed_verdicts": 9000,
+  "self_validations": 0
+ },
+ "independent_predicate_primary": {
+  "gate_or_decision_mismatches": 0,
+  "logs_checked": 12000
+ },
+ "independent_predicate_whole_file": {
+  "all_rejections_on_rule_c_problems": true,
+  "decision_mismatch_vs_predicate": 0,
+  "gate_failures": {
+   "C1": 0,
+   "C2": 0,
+   "C3": 0,
+   "C4": 0,
+   "causal_sufficiency": 0,
+   "process_coherence": 208,
+   "tool_utilization": 208
+  },
+  "logs": 5995,
+  "per_tier": {
+   "evidence": 52,
+   "minimal": 0,
+   "standard": 52,
+   "terse": 52,
+   "verbose": 52
+  },
+  "problems": 1199,
+  "rejected": 208,
+  "rejected_problems": 52
+ },
+ "leakage": {
+  "exact_label_values": 0,
+  "label_substrings_outside_prompt": 0,
+  "logs_scanned": 12000,
+  "model_ids": {
+   "scripted-gsm8k-reference": 12000
+  },
+  "tasks_with_extra_keys": 0
+ },
+ "log_id_sets_equal_to_csv": {
+  "H1": true,
+  "H1U": true,
+  "H1b": true,
+  "H3": true
+ },
+ "sample_seed": 2027,
+ "strict_reference_test": {
+  "logs_checked": 12000,
+  "reconstructed_strict_form": "assert token not in json.dumps(log) for each token (substring form); the original assertion text is not in the package, so this is a reconstruction",
+  "tokens": {
+   "deps": {
+    "logs_containing": 0,
+    "paths": {}
+   },
+   "gsm8k_index": {
+    "logs_containing": 0,
+    "paths": {}
+   },
+   "merged_expr": {
+    "logs_containing": 0,
+    "paths": {}
+   },
+   "position": {
+    "logs_containing": 0,
+    "paths": {}
+   },
+   "reference": {
+    "logs_containing": 12000,
+    "paths": {
+     "/model_id": 12000
+    }
+   }
+  }
+ },
+ "tiers": {
+  "payload_byte_identical_within_tier": true,
+  "same_computation_tier_pairs": [
+   {
+    "gsm8k_index": 26,
+    "tiers": [
+     "minimal",
+     "terse"
+    ]
+   },
+   {
+    "gsm8k_index": 27,
+    "tiers": [
+     "minimal",
+     "terse"
+    ]
+   },
+   {
+    "gsm8k_index": 46,
+    "tiers": [
+     "minimal",
+     "terse"
+    ]
+   }
+  ],
+  "tasks": 100,
+  "tasks_with_5_distinct_payloads": 100,
+  "tasks_with_5_distinct_step_counts": 97
+ }
+}

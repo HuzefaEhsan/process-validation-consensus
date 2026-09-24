@@ -1,0 +1,8 @@
+# Pinned versions used to produce results/ (Python 3.12.3)
+rfc8785==0.1.4          # RFC 8785 JSON canonicalisation (hard dependency of sim_ledger)
+Mesa==3.5.1             # agent framework used by agents.py / consensus.py
+pytest==9.1.1           # test runner
+scipy==1.17.1           # Clopper-Pearson cross-checks: required by audit/verify_corrected.py and two tests
+matplotlib==3.10.8      # figure scripts in scripts/ only (not used by run_experiments.sh)
+langchain-ollama==1.1.0 # imported by agents.py only for the live-model path; NOT used in these runs (no LLM)
+langchain-core==1.6.4
