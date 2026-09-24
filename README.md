@@ -141,7 +141,7 @@ that file. Until the paper's reference is final:
 
 ```bibtex
 @software{ahsan_process_validation_consensus_2026,
-  author  = {Ahsan, Huzaifa and Wardana, Aulia Arif and Sukarno, Parman},
+  author  = {Ahsan, Huzaifa and Sukarno, Parman and Wardana, Aulia Arif},
   title   = {process-validation-consensus},
   year    = {2026},
   license = {MIT},
@@ -155,8 +155,8 @@ Accompanying paper: [ACIIDS 2027 REFERENCE — to be added after review].
 
 - **Huzaifa Ahsan** (contact: huzaifaahsan@student.telkomuniversity.ac.id), Master's programme in
   Informatics, School of Computing, Telkom University, Bandung, Indonesia
-- **Aulia Arif Wardana**, Telkom University (supervisor)
-- **Parman Sukarno**, Telkom University (supervisor)
+- **Parman Sukarno**, Telkom University (supervisor I)
+- **Aulia Arif Wardana**, Telkom University (supervisor II)
 
 This work was carried out at Telkom University as part of the first author's Master's thesis.
 

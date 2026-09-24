@@ -12,12 +12,15 @@ authors:
     given-names: Huzaifa
     affiliation: "Telkom University"
     email: huzaifaahsan@student.telkomuniversity.ac.id
-  - family-names: Wardana
-    given-names: Aulia Arif
-    affiliation: "Telkom University"
+    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"   # TODO: add Huzaifa Ahsan's ORCID, then uncomment
   - family-names: Sukarno
     given-names: Parman
     affiliation: "Telkom University"
+    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"   # TODO: add Parman Sukarno's ORCID, then uncomment
+  - family-names: Wardana
+    given-names: Aulia Arif
+    affiliation: "Telkom University"
+    orcid: "https://orcid.org/0000-0003-2201-0464"
 version: "1.0.0"
 date-released: "2026-09-24"
 license: MIT
@@ -37,12 +40,15 @@ preferred-citation:
       given-names: Huzaifa
       affiliation: "Telkom University"
       email: huzaifaahsan@student.telkomuniversity.ac.id
-    - family-names: Wardana
-      given-names: Aulia Arif
-      affiliation: "Telkom University"
+      # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"   # TODO: add Huzaifa Ahsan's ORCID, then uncomment
     - family-names: Sukarno
       given-names: Parman
       affiliation: "Telkom University"
+      # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"   # TODO: add Parman Sukarno's ORCID, then uncomment
+    - family-names: Wardana
+      given-names: Aulia Arif
+      affiliation: "Telkom University"
+      orcid: "https://orcid.org/0000-0003-2201-0464"
   conference:
     name: "19th Asian Conference on Intelligent Information and Database Systems (ACIIDS 2027)"
     location: "Bali, Indonesia"
